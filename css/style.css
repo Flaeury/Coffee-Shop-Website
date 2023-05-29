@@ -1,0 +1,319 @@
+#container {
+  width: 100%;
+  max-width: 75vw;
+  margin: 0 auto;
+}
+
+.main {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  background-image: url(../img/8544623.jpg);
+  background-position: 30% 45%;
+  background-size: cover;
+
+
+}
+
+nav {
+  width: 100%;
+  height: 10vw;
+  background-color: #dbb78d;
+}
+
+.navbar {
+  width: 100%;
+  max-width: 75vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar img {
+  width: 100%;
+  max-width: 11vw;
+  margin: 0 0 0 1vw;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: -apple-system, sans-serif;
+  font-weight: 700;
+  font-size: 1.4vw;
+  color: #4c1809;
+  margin: 0 1.5vw;
+}
+
+.pedido {
+  color: white !important;
+  background-color: #4c1809;
+  border-radius: 0.7vw;
+  padding: 0.76vw 0.75vw;
+  cursor: pointer;
+}
+
+.direcionar-promo a:hover {
+  filter: blur(0px) !important;
+  transform: scale(1.1);
+
+}
+
+
+.direcionar-promo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  /** float: left; **/
+}
+
+.direcionar-promo a {
+  margin: 20vw 0;
+  font-size: 1.7vw;
+  font-weight: 700;
+  font-family: -apple-system, sans-serif;
+  color: #4c1809;
+  background-color: white;
+  padding: 1.48vw 1.53vw;
+  cursor: pointer;
+  text-decoration: none;
+  filter: blur(none) !important;
+}
+
+.direcionar-promo a:hover {
+  color: white;
+  background-color: #4c1809;
+  transition: ease-in-out 0.5s;
+}
+
+.banner2 {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+footer {
+  background-color: #dbb78d;
+  width: 100%;
+  height: 17vw;
+
+}
+
+.footer-a {
+  padding: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 75vw;
+  margin: 0 auto;
+}
+
+.footer-a a {
+  color: #4c1809;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: 1vw 3vw;
+  font-size: 1.4vw;
+  font-weight: 700;
+  font-family: -apple-system, sans-serif;
+}
+
+.footer-img {
+  width: 100%;
+  max-width: 13vw;
+
+}
+
+
+
+
+
+.img-cafetipos-principal {
+  width: 100% !important;
+  max-width: 100vw !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  align-items: center !important;
+  filter: blur(2px);
+}
+
+.img-cafetipos {
+  width: 100%;
+  max-width: 75vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.main-produtos {
+  display: table;
+  width: 100%;
+  height: 65vh;
+  background-image: url(https://img.freepik.com/free-photo/selective-focus-roasted-coffee-bean-lights-with-blurry-backgroun_181624-59643.jpg?w=1380&t=st=1685236102~exp=1685236702~hmac=1069f03466e6b2d1e13721cf41cd3172b89a66f1cc75308557885cc417169cfb);
+  background-position: 30% 45%;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+.main-checkout {
+  display: table;
+  width: 100%;
+  height: 65vh;
+  background-image: url(https://img.freepik.com/free-photo/selective-focus-roasted-coffee-bean-lights-with-blurry-backgroun_181624-59643.jpg?w=1380&t=st=1685236102~exp=1685236702~hmac=1069f03466e6b2d1e13721cf41cd3172b89a66f1cc75308557885cc417169cfb);
+  background-position: 30% 45%;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.escolha-User {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 75vw;
+  display: flex;
+
+}
+
+.img-escolha-User {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 38vw;
+  float: left;
+  justify-content: space-around;
+  margin: 4vw;
+}
+
+#user-choice {
+  color: white;
+  margin: 8.5vw auto;
+  width: 100%;
+  max-width: 22vw !important;
+}
+
+.tipo-pedido {
+  display: block;
+}
+
+.tipo-pedido label,
+.tipo-pedido button {
+  display: flex;
+  justify-content: space-around;
+  text-align: center !important;
+  font-family: Arial, sans-serif;
+  font-size: 1.32vw;
+  font-weight: 650;
+  width: 100%;
+  margin: 0.85vw 1.5vw;
+  max-width: 8vw;
+  align-items: center;
+  letter-spacing: 0.05vw;
+
+}
+
+.tipo-pedido p {
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 1.25vw;
+  font-weight: 600;
+  margin: 1.5vw 1.2vw;
+}
+
+.tipo-pedido input {
+  text-align: center;
+  padding: 0.8vw 0.2vw;
+  min-width: 30%;
+  font-family: Arial, sans-serif;
+  border-radius: 0.8vw;
+  background-color: #4c1809;
+  color: white;
+  font-size: 1.3vw;
+  border-style: none;
+  width: 100%;
+  max-width: 8vw;
+  margin: 2.9vw 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.finalizar-pedido button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 4vw;
+  margin-left: 6.3vw;
+  font-family: Arial, sans-serif;
+  font-size: 1.3vw;
+  font-weight: bold;
+  border-radius: 0.4vw;
+  background-color: #dbb78d;
+  color: #4c1809;
+  border: none;
+  padding: 0.9vw 1.5vw;
+}
+
+#final {
+  margin-top: 3vw;
+  margin-left: 3.7vw;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  background-color: #dbb78d;
+  color: #4c1809;
+  border-radius: 0.5vw;
+  max-width: 40vw;
+  max-height: 6vw;
+  padding: 1vw 0.2vw;
+}
+
+#final-pedido-calculo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  font-size: 1.7vw;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.08vw;
+  background-color: #dbb78d;
+  margin: 0.6vw;
+}
+
+#final-pedido-calculo p {
+  font-size: 1.3vw;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#Desconto {
+  background-color: #dbb78d;
+  display: flex;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  text-align: center;
+  font-weight: 650;
+  justify-content: space-around;
+  font-size: 1.35vw;
+  margin: 0.6vw 0 0.4vw 0;
+
+}

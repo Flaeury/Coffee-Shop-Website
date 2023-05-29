@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="css/reset.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="navbar">
+        <img
+          src="https://img.freepik.com/free-vector/coffee-shop-badge-vintage-style_1176-95.jpg?w=900&t=st=1685207991~exp=1685208591~hmac=d4e751dedf960fa5ae36d7c2203e72882e34699b80eaa4c7ff275eeeb5d639cb" />
+        <section>
+          <a href="./index.html">
+            Home
+          </a>
+          <a href="./info-pedidos.html">
+            Cardápio
+          </a>
+          <a href="">
+            Contatos
+          </a>
+          <a href="">
+            Sobre Nós
+          </a>
+          <a class="pedido" href="./checkout.html">
+            Fazer Pedido
+          </a>
+        </section>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-checkout">
+    <div class="escolha-User">
+      <img class="img-escolha-User" src="./img/WhatsApp Image 2023-05-28 at 1.58.09 PM.jpeg" />
+
+      <section id="user-choice">
+
+        <div style="display: flex;" class="tipo-pedido">
+          <label for="cafeexpresso">Café Expresso</label>
+          <p>13,00</p>
+          <input type="number" name="cafeexpresso" id="cafe" min="0" />
+        </div>
+
+        <div style="display: flex;" class="tipo-pedido">
+          <label for="bombom-cafe">Bombons de Café</label>
+          <p>23,00</p>
+          <input type="number" name="bombom-cafe" id="bombom-cafe" min="0" />
+        </div>
+
+        <div style="display: flex;" class="tipo-pedido">
+          <label for="cafe-chocolate">Chocolate de Café</label>
+          <p>83,00</p>
+          <input type="number" name="cafe-chocolate" id="cafe-chocolate" min="0" />
+        </div>
+
+        <div style="display: flex;" class="tipo-pedido">
+          <label for="cupuacu-cafe">Cupuaçu de Café</label>
+          <p>133,00</p>
+          <input type="number" name="cupuacu-cafe" id="cupuacu-cafe" min="0" />
+        </div>
+
+
+
+        <div class="finalizar-pedido">
+          <button onclick="Calculo()">Finalizar Pedido</button>
+        </div>
+        <div id="final">
+          <div id="final-pedido-calculo">
+            <p>Total a pagar:</p>
+          </div>
+          <div class="Desconto" id="Desconto" role="alert"></div>
+        </div>
+
+
+
+
+
+
+      </section>
+
+
+
+
+    </div>
+  </main>
+
+
+  <footer>
+    <section class="footer-a">
+      <a>Instagram</a>
+      <a>Facebook</a>
+      <img class="footer-img"
+        src="https://img.freepik.com/free-vector/coffee-shop-badge-vintage-style_1176-95.jpg?w=900&t=st=1685207991~exp=1685208591~hmac=d4e751dedf960fa5ae36d7c2203e72882e34699b80eaa4c7ff275eeeb5d639cb" />
+      <a>Localização</a>
+      <a>E-mail</a>
+    </section>
+  </footer>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
