@@ -263,7 +263,13 @@ footer {
   max-height: 5vw;
   padding: 0.5vw 0.2vw;
 }
-
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
 #final-pedido-calculo {
   display: flex;
   align-items: center;
