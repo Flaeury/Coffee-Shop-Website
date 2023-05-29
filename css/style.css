@@ -12,13 +12,11 @@
   background-image: url(../img/8544623.jpg);
   background-position: 30% 45%;
   background-size: cover;
-
-
 }
 
 nav {
   width: 100%;
-  height: 10vw;
+  height: 7vw;
   background-color: #dbb78d;
 }
 
@@ -33,7 +31,7 @@ nav {
 
 .navbar img {
   width: 100%;
-  max-width: 11vw;
+  max-width: 8vw;
   margin: 0 0 0 1vw;
 }
 
@@ -41,25 +39,23 @@ nav {
   text-decoration: none;
   font-family: -apple-system, sans-serif;
   font-weight: 700;
-  font-size: 1.4vw;
+  font-size: 1.1vw;
   color: #4c1809;
-  margin: 0 1.5vw;
+  margin: 0 2vw;
 }
 
 .pedido {
   color: white !important;
   background-color: #4c1809;
   border-radius: 0.7vw;
-  padding: 0.76vw 0.75vw;
+  padding: 0.71vw 0.7vw;
   cursor: pointer;
 }
 
 .direcionar-promo a:hover {
   filter: blur(0px) !important;
   transform: scale(1.1);
-
 }
-
 
 .direcionar-promo {
   display: flex;
@@ -70,13 +66,13 @@ nav {
 }
 
 .direcionar-promo a {
-  margin: 20vw 0;
-  font-size: 1.7vw;
+  margin: 18vw 0;
+  font-size: 1.1vw;
   font-weight: 700;
   font-family: -apple-system, sans-serif;
   color: #4c1809;
   background-color: white;
-  padding: 1.48vw 1.53vw;
+  padding: 1.35vw 1.41vw;
   cursor: pointer;
   text-decoration: none;
   filter: blur(none) !important;
@@ -97,8 +93,7 @@ nav {
 footer {
   background-color: #dbb78d;
   width: 100%;
-  height: 17vw;
-
+  height: 10vw;
 }
 
 .footer-a {
@@ -124,13 +119,8 @@ footer {
 
 .footer-img {
   width: 100%;
-  max-width: 13vw;
-
+  max-width: 7vw;
 }
-
-
-
-
 
 .img-cafetipos-principal {
   width: 100% !important;
@@ -159,12 +149,6 @@ footer {
   margin: 0 auto;
 }
 
-
-
-
-
-
-
 .main-checkout {
   display: table;
   width: 100%;
@@ -180,7 +164,6 @@ footer {
   width: 100%;
   max-width: 75vw;
   display: flex;
-
 }
 
 .img-escolha-User {
@@ -188,7 +171,7 @@ footer {
   align-items: center;
   width: 100%;
   height: 100%;
-  max-width: 38vw;
+  max-width: 27vw;
   float: left;
   justify-content: space-around;
   margin: 4vw;
@@ -196,7 +179,7 @@ footer {
 
 #user-choice {
   color: white;
-  margin: 8.5vw auto;
+  margin: 8vw auto;
   width: 100%;
   max-width: 22vw !important;
 }
@@ -211,14 +194,13 @@ footer {
   justify-content: space-around;
   text-align: center !important;
   font-family: Arial, sans-serif;
-  font-size: 1.32vw;
+  font-size: 1vw;
   font-weight: 650;
   width: 100%;
-  margin: 0.85vw 1.5vw;
+  margin: 0.4vw 1vw;
   max-width: 8vw;
   align-items: center;
   letter-spacing: 0.05vw;
-
 }
 
 .tipo-pedido p {
@@ -227,20 +209,20 @@ footer {
   justify-content: space-around;
   text-align: center;
   font-family: Arial, sans-serif;
-  font-size: 1.25vw;
+  font-size: 1vw;
   font-weight: 600;
   margin: 1.5vw 1.2vw;
 }
 
 .tipo-pedido input {
   text-align: center;
-  padding: 0.8vw 0.2vw;
+  padding: 0.4vw 0.1vw;
   min-width: 30%;
   font-family: Arial, sans-serif;
-  border-radius: 0.8vw;
+  border-radius: 0.3vw;
   background-color: #4c1809;
   color: white;
-  font-size: 1.3vw;
+  font-size: 1vw;
   border-style: none;
   width: 100%;
   max-width: 8vw;
@@ -254,21 +236,21 @@ footer {
   display: flex;
   align-items: center;
   text-align: center;
-  margin-top: 4vw;
+  margin-top: 2vw;
   margin-left: 6.3vw;
   font-family: Arial, sans-serif;
-  font-size: 1.3vw;
+  font-size: 1vw;
   font-weight: bold;
-  border-radius: 0.4vw;
+  border-radius: 0.2vw;
   background-color: #dbb78d;
   color: #4c1809;
   border: none;
-  padding: 0.9vw 1.5vw;
+  padding: 0.6vw 1.1vw;
 }
 
 #final {
   margin-top: 3vw;
-  margin-left: 3.7vw;
+  margin-left: 3vw;
   display: grid;
   align-items: center;
   text-align: center;
@@ -276,9 +258,9 @@ footer {
   background-color: #dbb78d;
   color: #4c1809;
   border-radius: 0.5vw;
-  max-width: 40vw;
-  max-height: 6vw;
-  padding: 1vw 0.2vw;
+  max-width: 17vw;
+  max-height: 5vw;
+  padding: 0.5vw 0.2vw;
 }
 
 #final-pedido-calculo {
@@ -286,16 +268,16 @@ footer {
   align-items: center;
   text-align: center;
   justify-content: space-around;
-  font-size: 1.7vw;
+  font-size: 1.2vw;
   font-family: Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 0.08vw;
   background-color: #dbb78d;
-  margin: 0.6vw;
+  margin: 0.2vw;
 }
 
 #final-pedido-calculo p {
-  font-size: 1.3vw;
+  font-size: 1vw;
   font-family: Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 0.1vw;
@@ -313,7 +295,6 @@ footer {
   text-align: center;
   font-weight: 650;
   justify-content: space-around;
-  font-size: 1.35vw;
-  margin: 0.6vw 0 0.4vw 0;
-
+  font-size: 0.9vw;
+  margin: 0.2vw 0 0.1vw 0;
 }
